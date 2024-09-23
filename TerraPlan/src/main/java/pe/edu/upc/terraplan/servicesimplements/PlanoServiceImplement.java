@@ -1,11 +1,14 @@
 package pe.edu.upc.terraplan.servicesimplements;
 
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import pe.edu.upc.terraplan.entities.Plano;
+import pe.edu.upc.terraplan.repositories.IPlanoRepository;
+import pe.edu.upc.terraplan.servicesinterfaces.IPlanoService;
 
 import java.util.List;
 
-public class PlanoServiceImplement {
     @Service
     public class PlanoServiceImplement implements IPlanoService {
 
@@ -32,4 +35,4 @@ public class PlanoServiceImplement {
             planoRepository.deleteById(id);
         }
     }
-}
+

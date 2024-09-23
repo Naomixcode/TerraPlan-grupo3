@@ -2,6 +2,9 @@ package pe.edu.upc.terraplan.servicesimplements;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import pe.edu.upc.terraplan.entities.Terreno;
+import pe.edu.upc.terraplan.repositories.ITerrenoRepository;
+import pe.edu.upc.terraplan.servicesinterfaces.ITerrenoService;
 
 import java.util.List;
 

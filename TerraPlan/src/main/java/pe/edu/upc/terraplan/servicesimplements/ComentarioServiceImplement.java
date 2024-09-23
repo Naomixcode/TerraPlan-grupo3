@@ -2,6 +2,11 @@ package pe.edu.upc.terraplan.servicesimplements;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import pe.edu.upc.terraplan.dtos.ComentarioCountByProyectoDTO;
+import pe.edu.upc.terraplan.dtos.ComentarioCountDTO;
+import pe.edu.upc.terraplan.entities.Comentario;
+import pe.edu.upc.terraplan.repositories.IComentarioRepository;
+import pe.edu.upc.terraplan.servicesinterfaces.IComentarioService;
 
 import java.util.List;
 

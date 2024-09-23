@@ -4,9 +4,9 @@ import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
-import pe.edu.upc.si62_grupo_01.dtos.NotificacionDto;
-import pe.edu.upc.si62_grupo_01.entities.Notificacion;
-import pe.edu.upc.si62_grupo_01.servicesinterfaces.INotificacionService;
+import pe.edu.upc.terraplan.dtos.NotificacionDto;
+import pe.edu.upc.terraplan.entities.Notificacion;
+import pe.edu.upc.terraplan.servicesinterfaces.INotifacionService;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -14,7 +14,7 @@ import java.util.stream.Collectors;
 @RequestMapping("/notificacion")
 public class NotificacionController {
     @Autowired
-    private INotificacionService notificacionService;
+    private INotifacionService notificacionService;
 
     @GetMapping
     @PreAuthorize("hasAnyAuthority('Usuario', 'Admin')")

@@ -2,11 +2,14 @@ package pe.edu.upc.terraplan.servicesimplements;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import pe.edu.upc.terraplan.entities.Notificacion;
+import pe.edu.upc.terraplan.repositories.INotificacionRepository;
+import pe.edu.upc.terraplan.servicesinterfaces.INotifacionService;
 
 import java.util.List;
 
 @Service
-public class NotificacionServiceImplement implements INotificacionService {
+public class NotificacionServiceImplement implements INotifacionService {
     @Autowired
     private INotificacionRepository repositoryNotificacion;
     @Override

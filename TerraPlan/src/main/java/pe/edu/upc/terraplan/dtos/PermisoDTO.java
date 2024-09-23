@@ -1,5 +1,7 @@
 package pe.edu.upc.terraplan.dtos;
 
+import pe.edu.upc.terraplan.entities.Proyecto;
+
 import java.time.LocalDate;
 
 public class PermisoDTO {

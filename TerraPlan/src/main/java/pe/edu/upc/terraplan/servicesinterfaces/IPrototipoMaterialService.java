@@ -1,6 +1,6 @@
 package pe.edu.upc.terraplan.servicesinterfaces;
 
-import pe.edu.upc.si62_grupo_01.entities.PrototipoMaterial;
+import pe.edu.upc.terraplan.entities.PrototipoMaterial;
 
 import java.util.List;
 

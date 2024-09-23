@@ -12,7 +12,7 @@ import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.web.authentication.WebAuthenticationDetailsSource;
 import org.springframework.stereotype.Component;
 import org.springframework.web.filter.OncePerRequestFilter;
-import pe.edu.upc.si62_grupo_01.servicesimplements.JwtUserDetailsService;
+import pe.edu.upc.terraplan.servicesimplements.JwtUserDetailsService;
 
 import java.io.IOException;
 

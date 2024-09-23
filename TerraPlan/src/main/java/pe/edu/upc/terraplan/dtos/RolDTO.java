@@ -1,5 +1,7 @@
 package pe.edu.upc.terraplan.dtos;
 
+import pe.edu.upc.terraplan.entities.Usuario;
+
 public class RolDTO {
     private int idRol;
     private String nombreRol;

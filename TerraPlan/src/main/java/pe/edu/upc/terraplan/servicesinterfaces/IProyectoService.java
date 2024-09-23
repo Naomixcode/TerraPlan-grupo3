@@ -1,7 +1,7 @@
 package pe.edu.upc.terraplan.servicesinterfaces;
 
-import pe.edu.upc.si62_grupo_01.dtos.ProyectoCountDTO;
-import pe.edu.upc.si62_grupo_01.entities.Proyecto;
+import pe.edu.upc.terraplan.dtos.ProyectoCountDTO;
+import pe.edu.upc.terraplan.entities.Proyecto;
 
 import java.util.List;
 

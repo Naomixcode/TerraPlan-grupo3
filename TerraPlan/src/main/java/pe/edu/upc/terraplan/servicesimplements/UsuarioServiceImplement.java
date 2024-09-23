@@ -2,6 +2,9 @@ package pe.edu.upc.terraplan.servicesimplements;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import pe.edu.upc.terraplan.entities.Usuario;
+import pe.edu.upc.terraplan.repositories.IUsuarioRepository;
+import pe.edu.upc.terraplan.servicesinterfaces.IUsuarioService;
 
 import java.util.List;
 
@@ -15,6 +18,8 @@ public class UsuarioServiceImplement implements IUsuarioService {
     public List<Usuario> list() {
         return uR.findAll();
     }
+
+
 
     @Override
     public void insert(Usuario usuario) {

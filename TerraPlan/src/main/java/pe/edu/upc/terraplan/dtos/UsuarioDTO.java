@@ -1,7 +1,6 @@
 package pe.edu.upc.terraplan.dtos;
 
 public class UsuarioDTO {
-    public class UsuarioDTO {
         private Long idUsuario;
         private String nombreCompleto;
         private String contrasenia;
@@ -41,4 +40,3 @@ public class UsuarioDTO {
             this.enabled = enabled;
         }
     }
-}

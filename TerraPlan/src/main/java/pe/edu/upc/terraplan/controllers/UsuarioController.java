@@ -5,9 +5,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.web.bind.annotation.*;
-import pe.edu.upc.si62_grupo_01.dtos.UsuarioDTO;
-import pe.edu.upc.si62_grupo_01.entities.Usuario;
-import pe.edu.upc.si62_grupo_01.servicesinterfaces.IUsuarioService;
+import pe.edu.upc.terraplan.dtos.UsuarioDTO;
+import pe.edu.upc.terraplan.entities.Usuario;
+import pe.edu.upc.terraplan.servicesinterfaces.IUsuarioService;
 
 import java.util.List;
 import java.util.stream.Collectors;

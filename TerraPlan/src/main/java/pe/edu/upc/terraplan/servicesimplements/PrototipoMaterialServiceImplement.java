@@ -2,6 +2,9 @@ package pe.edu.upc.terraplan.servicesimplements;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import pe.edu.upc.terraplan.entities.PrototipoMaterial;
+import pe.edu.upc.terraplan.repositories.IPrototipoMaterialRepository;
+import pe.edu.upc.terraplan.servicesinterfaces.IPrototipoMaterialService;
 
 import java.util.List;
 

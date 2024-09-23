@@ -1,6 +1,7 @@
 package pe.edu.upc.terraplan.dtos;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
+import pe.edu.upc.terraplan.entities.Proyecto;
 
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public class TerrenoDTO {

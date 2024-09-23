@@ -1,5 +1,9 @@
 package pe.edu.upc.terraplan.dtos;
 
+import pe.edu.upc.terraplan.entities.Evaluacion;
+import pe.edu.upc.terraplan.entities.Proyecto;
+import pe.edu.upc.terraplan.entities.Usuario;
+
 import java.time.LocalDate;
 
 public class ComentarioDTO {

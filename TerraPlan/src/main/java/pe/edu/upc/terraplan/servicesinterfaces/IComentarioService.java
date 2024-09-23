@@ -1,8 +1,8 @@
 package pe.edu.upc.terraplan.servicesinterfaces;
 
-import pe.edu.upc.si62_grupo_01.dtos.ComentarioCountByProyectoDTO;
-import pe.edu.upc.si62_grupo_01.dtos.ComentarioCountDTO;
-import pe.edu.upc.si62_grupo_01.entities.Comentario;
+import pe.edu.upc.terraplan.dtos.ComentarioCountByProyectoDTO;
+import pe.edu.upc.terraplan.dtos.ComentarioCountDTO;
+import pe.edu.upc.terraplan.entities.Comentario;
 
 import java.util.List;
 

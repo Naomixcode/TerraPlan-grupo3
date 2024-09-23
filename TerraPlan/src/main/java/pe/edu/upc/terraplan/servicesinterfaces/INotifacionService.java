@@ -1,10 +1,10 @@
 package pe.edu.upc.terraplan.servicesinterfaces;
 
-import pe.edu.upc.si62_grupo_01.entities.Notificacion;
+import pe.edu.upc.terraplan.entities.Notificacion;
 
 import java.util.List;
 
-public interface INotificacionService {
+public interface INotifacionService {
     public List<Notificacion> list();
     public void insert(Notificacion notificacion);
     public void delete(int id);

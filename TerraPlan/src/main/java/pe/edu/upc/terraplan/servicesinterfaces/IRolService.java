@@ -1,6 +1,6 @@
 package pe.edu.upc.terraplan.servicesinterfaces;
 
-import pe.edu.upc.si62_grupo_01.entities.Rol;
+import pe.edu.upc.terraplan.entities.Rol;
 
 import java.util.List;
 public interface IRolService {

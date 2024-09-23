@@ -5,25 +5,75 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d705ef3-2b90-4493-af00-f2953929e3d3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/entities/Comentario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/entities/Evaluacion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/entities/Material.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/entities/Notificacion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/entities/Permiso.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/entities/Plano.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/entities/Prototipo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/entities/PrototipoMaterial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/entities/Proyecto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/entities/Rol.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/entities/Terreno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/entities/Usuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/securities/JwtAuthenticationEntryPoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/securities/JwtRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/securities/JwtRequestFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/securities/JwtResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/securities/JwtTokenUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/securities/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TerraPlan/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TerraPlan/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/controllers/ComentarioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/controllers/ComentarioController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/controllers/EvaluacionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/controllers/EvaluacionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/controllers/JwtAuthenticationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/controllers/JwtAuthenticationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/controllers/MaterialController.java" beforeDir="false" afterPath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/controllers/MaterialController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/controllers/NotificacionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/controllers/NotificacionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/controllers/PermisoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/controllers/PermisoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/controllers/PlanoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/controllers/PlanoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/controllers/PrototipoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/controllers/PrototipoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/controllers/PrototipoMaterialController.java" beforeDir="false" afterPath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/controllers/PrototipoMaterialController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/controllers/ProyectoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/controllers/ProyectoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/controllers/RolController.java" beforeDir="false" afterPath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/controllers/RolController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/controllers/TerrenoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/controllers/TerrenoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/controllers/UsuarioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/controllers/UsuarioController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/dtos/ComentarioDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/dtos/ComentarioDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/dtos/EvaluacionDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/dtos/EvaluacionDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/dtos/NotificacionDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/dtos/NotificacionDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/dtos/PermisoDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/dtos/PermisoDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/dtos/PlanoDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/dtos/PlanoDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/dtos/PrototipoDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/dtos/PrototipoDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/dtos/PrototipoMaterialDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/dtos/PrototipoMaterialDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/dtos/ProyectoDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/dtos/ProyectoDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/dtos/RolDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/dtos/RolDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/dtos/TerrenoDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/dtos/TerrenoDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/dtos/UsuarioDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/dtos/UsuarioDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/repositories/IComentarioRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/repositories/IComentarioRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/repositories/IEvaluacionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/repositories/IEvaluacionRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/repositories/IMaterialRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/repositories/IMaterialRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/repositories/INotificacionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/repositories/INotificacionRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/repositories/IPermisoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/repositories/IPermisoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/repositories/IPlanoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/repositories/IPlanoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/repositories/IPrototipoMaterialRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/repositories/IPrototipoMaterialRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/repositories/IPrototipoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/repositories/IPrototipoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/repositories/IProyectoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/repositories/IProyectoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/repositories/IRolRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/repositories/IRolRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/repositories/ITerrenoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/repositories/ITerrenoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/repositories/IUsuarioRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/repositories/IUsuarioRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/securities/JwtRequestFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/securities/JwtRequestFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/servicesimplements/ComentarioServiceImplement.java" beforeDir="false" afterPath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/servicesimplements/ComentarioServiceImplement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/servicesimplements/EvaluacionServiceImplement.java" beforeDir="false" afterPath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/servicesimplements/EvaluacionServiceImplement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/servicesimplements/JwtUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/servicesimplements/JwtUserDetailsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/servicesimplements/MaterialServiceImplement.java" beforeDir="false" afterPath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/servicesimplements/MaterialServiceImplement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/servicesimplements/NotificacionServiceImplement.java" beforeDir="false" afterPath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/servicesimplements/NotificacionServiceImplement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/servicesimplements/PermisoServiceImplement.java" beforeDir="false" afterPath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/servicesimplements/PermisoServiceImplement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/servicesimplements/PlanoServiceImplement.java" beforeDir="false" afterPath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/servicesimplements/PlanoServiceImplement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/servicesimplements/PrototipoMaterialServiceImplement.java" beforeDir="false" afterPath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/servicesimplements/PrototipoMaterialServiceImplement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/servicesimplements/PrototipoServiceImplement.java" beforeDir="false" afterPath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/servicesimplements/PrototipoServiceImplement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/servicesimplements/ProyectoServiceImplement.java" beforeDir="false" afterPath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/servicesimplements/ProyectoServiceImplement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/servicesimplements/RolServiceImplement.java" beforeDir="false" afterPath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/servicesimplements/RolServiceImplement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/servicesimplements/TerrenoServiceImplement.java" beforeDir="false" afterPath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/servicesimplements/TerrenoServiceImplement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/servicesimplements/UsuarioServiceImplement.java" beforeDir="false" afterPath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/servicesimplements/UsuarioServiceImplement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/servicesinterfaces/IComentarioService.java" beforeDir="false" afterPath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/servicesinterfaces/IComentarioService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/servicesinterfaces/IEvalucionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/servicesinterfaces/IEvalucionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/servicesinterfaces/IMaterialService.java" beforeDir="false" afterPath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/servicesinterfaces/IMaterialService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/servicesinterfaces/INotifacionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/servicesinterfaces/INotifacionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/servicesinterfaces/IPermisoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/servicesinterfaces/IPermisoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/servicesinterfaces/IPlanoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/servicesinterfaces/IPlanoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/servicesinterfaces/IPrototipoMaterialService.java" beforeDir="false" afterPath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/servicesinterfaces/IPrototipoMaterialService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/servicesinterfaces/IPrototipoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/servicesinterfaces/IPrototipoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/servicesinterfaces/IProyectoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/servicesinterfaces/IProyectoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/servicesinterfaces/IRolService.java" beforeDir="false" afterPath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/servicesinterfaces/IRolService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/servicesinterfaces/ITerrenoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/servicesinterfaces/ITerrenoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/servicesinterfaces/IUsuarioService.java" beforeDir="false" afterPath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/servicesinterfaces/IUsuarioService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TerraPlan/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/TerraPlan/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,18 +90,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "SAMIR15MC"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;SAMIR15MC&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Naomixcode/TerraPlan-grupo3.git",
-    "accountId": "5e0aee2e-ff89-4599-80d5-d0e4807cde4e"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Naomixcode/TerraPlan-grupo3.git&quot;,
+    &quot;accountId&quot;: &quot;5e0aee2e-ff89-4599-80d5-d0e4807cde4e&quot;
   }
-}]]></component>
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -65,13 +115,18 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "Samir",
+    "Spring Boot.TerraPlanApplication.executor": "Run",
+    "git-widget-placeholder": "Naomi",
     "jdk.selected.JAVA_MODULE": "corretto-21",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/samie/OneDrive/Escritorio/SI62_GRUPO_01/TerraPlan-grupo3/TerraPlan/src/main/java/pe/edu/upc/terraplan",
+    "last_opened_file_path": "C:/Users/RUTH/Downloads/jbhvygcrtxexgb l uh",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -119,5 +174,16 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/controllers/UsuarioController.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -2,6 +2,10 @@ package pe.edu.upc.terraplan.servicesimplements;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import pe.edu.upc.terraplan.dtos.ProyectoCountDTO;
+import pe.edu.upc.terraplan.entities.Proyecto;
+import pe.edu.upc.terraplan.repositories.IProyectoRepository;
+import pe.edu.upc.terraplan.servicesinterfaces.IProyectoService;
 
 import java.util.List;
 

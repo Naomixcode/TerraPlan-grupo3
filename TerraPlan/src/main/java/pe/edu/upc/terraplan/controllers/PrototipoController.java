@@ -4,11 +4,11 @@ import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
-import pe.edu.upc.si62_grupo_01.dtos.MaterialByPrototipo;
-import pe.edu.upc.si62_grupo_01.dtos.PrototipoDTO;
-import pe.edu.upc.si62_grupo_01.dtos.PrototiposCountByProyecto;
-import pe.edu.upc.si62_grupo_01.entities.Prototipo;
-import pe.edu.upc.si62_grupo_01.servicesinterfaces.IPrototipoService;
+import pe.edu.upc.terraplan.dtos.MaterialByPrototipo;
+import pe.edu.upc.terraplan.dtos.PrototipoDTO;
+import pe.edu.upc.terraplan.dtos.PrototiposCountByProyecto;
+import pe.edu.upc.terraplan.entities.Prototipo;
+import pe.edu.upc.terraplan.servicesinterfaces.IPrototipoService;
 
 import java.util.ArrayList;
 import java.util.List;

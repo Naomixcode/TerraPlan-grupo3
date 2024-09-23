@@ -4,9 +4,9 @@ import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
-import pe.edu.upc.si62_grupo_01.dtos.EvaluacionDTO;
-import pe.edu.upc.si62_grupo_01.entities.Evaluacion;
-import pe.edu.upc.si62_grupo_01.servicesinterfaces.IEvaluacionService;
+import pe.edu.upc.terraplan.dtos.EvaluacionDTO;
+import pe.edu.upc.terraplan.entities.Evaluacion;
+import pe.edu.upc.terraplan.servicesinterfaces.IEvalucionService;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -15,7 +15,7 @@ import java.util.stream.Collectors;
 @RequestMapping("/evaluacion")
 public class EvaluacionController {
     @Autowired
-    private IEvaluacionService eS;
+    private IEvalucionService eS;
 
 
     @PostMapping

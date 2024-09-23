@@ -11,10 +11,10 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
-import pe.edu.upc.si62_grupo_01.securities.JwtRequest;
-import pe.edu.upc.si62_grupo_01.securities.JwtResponse;
-import pe.edu.upc.si62_grupo_01.securities.JwtTokenUtil;
-import pe.edu.upc.si62_grupo_01.servicesimplements.JwtUserDetailsService;
+import pe.edu.upc.terraplan.securities.JwtRequest;
+import pe.edu.upc.terraplan.securities.JwtResponse;
+import pe.edu.upc.terraplan.securities.JwtTokenUtil;
+import pe.edu.upc.terraplan.servicesimplements.JwtUserDetailsService;
 
 @RestController
 @CrossOrigin

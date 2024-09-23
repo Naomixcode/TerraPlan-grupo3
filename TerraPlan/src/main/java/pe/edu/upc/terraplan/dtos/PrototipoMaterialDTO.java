@@ -1,5 +1,8 @@
 package pe.edu.upc.terraplan.dtos;
 
+import pe.edu.upc.terraplan.entities.Material;
+import pe.edu.upc.terraplan.entities.Prototipo;
+
 public class PrototipoMaterialDTO {
     private  int PrototipoMaterialId;
     private Prototipo prototipo;

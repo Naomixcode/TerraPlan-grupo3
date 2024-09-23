@@ -2,6 +2,9 @@ package pe.edu.upc.terraplan.servicesimplements;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import pe.edu.upc.terraplan.entities.Permiso;
+import pe.edu.upc.terraplan.repositories.IPermisoRepository;
+import pe.edu.upc.terraplan.servicesinterfaces.IPermisoService;
 
 import java.util.List;
 

@@ -4,10 +4,10 @@ import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
-import pe.edu.upc.si62_grupo_01.dtos.TerrenoCountByDepartamentoDTO;
-import pe.edu.upc.si62_grupo_01.dtos.TerrenoDTO;
-import pe.edu.upc.si62_grupo_01.entities.Terreno;
-import pe.edu.upc.si62_grupo_01.servicesinterfaces.ITerrenoService;
+import pe.edu.upc.terraplan.dtos.TerrenoCountByDepartamentoDTO;
+import pe.edu.upc.terraplan.dtos.TerrenoDTO;
+import pe.edu.upc.terraplan.entities.Terreno;
+import pe.edu.upc.terraplan.servicesinterfaces.ITerrenoService;
 
 import java.util.ArrayList;
 import java.util.List;

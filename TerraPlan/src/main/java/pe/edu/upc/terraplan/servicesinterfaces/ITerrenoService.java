@@ -1,6 +1,6 @@
 package pe.edu.upc.terraplan.servicesinterfaces;
 
-import pe.edu.upc.si62_grupo_01.entities.Terreno;
+import pe.edu.upc.terraplan.entities.Terreno;
 
 import java.util.List;
 

@@ -4,9 +4,9 @@ import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
-import pe.edu.upc.si62_grupo_01.dtos.*;
-import pe.edu.upc.si62_grupo_01.entities.Proyecto;
-import pe.edu.upc.si62_grupo_01.servicesinterfaces.IProyectoService;
+import pe.edu.upc.terraplan.dtos.*;
+import pe.edu.upc.terraplan.entities.Proyecto;
+import pe.edu.upc.terraplan.servicesinterfaces.IProyectoService;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,6 +1,6 @@
 package pe.edu.upc.terraplan.servicesinterfaces;
 
-import pe.edu.upc.si62_grupo_01.entities.Permiso;
+import pe.edu.upc.terraplan.entities.Permiso;
 
 import java.util.List;
 
