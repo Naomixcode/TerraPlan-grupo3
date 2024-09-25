@@ -37,8 +37,8 @@ public class ComentarioServiceImplement implements IComentarioService {
     }
 
     @Override
-    public List<ComentarioCountDTO> contarComentariosPorUsuario(Long idUsuario) {
-        return comentarioRepository.contarComentariosPorUsuario(idUsuario);
+    public List<Object[]> contarComentariosPorUsuarioRaw(Long idUsuario) {
+        return comentarioRepository.contarComentariosPorUsuarioRaw(idUsuario);
     }
 
     @Override

@@ -1,5 +1,6 @@
 package pe.edu.upc.terraplan.servicesinterfaces;
 
+import org.springframework.data.repository.query.Param;
 import pe.edu.upc.terraplan.dtos.ComentarioCountByProyectoDTO;
 import pe.edu.upc.terraplan.dtos.ComentarioCountDTO;
 import pe.edu.upc.terraplan.entities.Comentario;
@@ -15,7 +16,8 @@ public interface IComentarioService {
 
     public void delete(int id);
 
-    public List<ComentarioCountDTO> contarComentariosPorUsuario(Long idUsuario);
+    public List<Object[]> contarComentariosPorUsuarioRaw( Long idUsuario);
+
 
     List<ComentarioCountByProyectoDTO> contarComentariosPorProyecto(int idProyecto);
 }

@@ -6,17 +6,20 @@ import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 import pe.edu.upc.terraplan.dtos.ComentarioCountByProyectoDTO;
 import pe.edu.upc.terraplan.entities.Comentario;
-import pe.edu.upc.terraplan.dtos.ComentarioCountDTO;
+
 
 import java.util.List;
 
 @Repository
 public interface IComentarioRepository extends JpaRepository<Comentario, Integer> {
 
-    // Query para contar los comentarios por usuario//Naomi
-    @Query("SELECT new pe.edu.upc.terraplan.dtos.ComentarioCountDTO(c.usuario.nombreCompleto, COUNT(c)) " +
-            "FROM Comentario c WHERE c.usuario.idUsuario = :idUsuario GROUP BY c.usuario.nombreCompleto")
-    public List<ComentarioCountDTO> contarComentariosPorUsuario(@Param("idUsuario") Long idUsuario);
+    @Query(value = "SELECT u.nombre_completo AS nombreUsuario, COUNT(c.id_comentario) AS cantidadComentarios " +
+            "FROM comentario c JOIN usuario u ON c.id_usuario = u.id_usuario " +
+            "WHERE u.id_usuario = :idUsuario " +
+            "GROUP BY u.nombre_completo", nativeQuery = true)
+    List<Object[]> contarComentariosPorUsuarioRaw(@Param("idUsuario") Long idUsuario);
+
+
 
     //Query Angie
     @Query("SELECT new pe.edu.upc.terraplan.dtos.ComentarioCountByProyectoDTO(p.nombreProyecto, COUNT(c.idComentario)) " +

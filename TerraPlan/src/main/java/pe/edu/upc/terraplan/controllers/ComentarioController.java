@@ -2,6 +2,7 @@ package pe.edu.upc.terraplan.controllers;
 
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.repository.query.Param;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 import pe.edu.upc.terraplan.dtos.ComentarioCountDTO;
@@ -39,7 +40,6 @@ public class ComentarioController {
 
     @PutMapping
     @PreAuthorize("hasAnyAuthority('Usuario', 'Admin')")
-
     private void modificar(@RequestBody ComentarioDTO comentarioDTO) {
         ModelMapper m = new ModelMapper();
         Comentario comentario = m.map(comentarioDTO, Comentario.class);
@@ -55,8 +55,8 @@ public class ComentarioController {
 
     @GetMapping("/contar-por-usuario/{idUsuario}")
     @PreAuthorize("hasAuthority('Admin')")
-    public List<ComentarioCountDTO> contarComentariosPorUsuario(@PathVariable("idUsuario") Long idUsuario) {
-        return comentarioService.contarComentariosPorUsuario(idUsuario);
+    public List<Object[]> contarComentariosPorUsuarioRaw(@PathVariable("idUsuario") Long idUsuario) {
+        return comentarioService.contarComentariosPorUsuarioRaw(idUsuario);
     }
 
 }
