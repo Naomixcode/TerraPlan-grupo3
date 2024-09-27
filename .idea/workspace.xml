@@ -6,10 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="5d705ef3-2b90-4493-af00-f2953929e3d3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/controllers/ComentarioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/controllers/ComentarioController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/repositories/IComentarioRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/repositories/IComentarioRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/servicesimplements/ComentarioServiceImplement.java" beforeDir="false" afterPath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/servicesimplements/ComentarioServiceImplement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/servicesinterfaces/IComentarioService.java" beforeDir="false" afterPath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/servicesinterfaces/IComentarioService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/securities/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/TerraPlan/src/main/java/pe/edu/upc/terraplan/securities/WebSecurityConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

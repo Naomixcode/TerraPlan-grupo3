@@ -13,6 +13,7 @@ import java.util.List;
 @Repository
 public interface IComentarioRepository extends JpaRepository<Comentario, Integer> {
 
+    //QUERY1 -NUMERO DE COMENTARIO POR USUARIO
     @Query(value = "SELECT u.nombre_completo AS nombreUsuario, COUNT(c.id_comentario) AS cantidadComentarios " +
             "FROM comentario c JOIN usuario u ON c.id_usuario = u.id_usuario " +
             "WHERE u.id_usuario = :idUsuario " +
