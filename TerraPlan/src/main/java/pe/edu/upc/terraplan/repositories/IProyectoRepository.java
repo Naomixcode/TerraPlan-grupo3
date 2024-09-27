@@ -13,12 +13,15 @@ import java.util.List;
 @Repository
 public interface IProyectoRepository extends JpaRepository<Proyecto, Integer> {
 
-    // Query para contar proyectos por usuario
-    @Query("SELECT new pe.edu.upc.terraplan.dtos.ProyectoCountDTO(p.usuarioProyecto.nombreCompleto, COUNT(p)) " +
-            "FROM Proyecto p WHERE p.usuarioProyecto.idUsuario = :idUsuario GROUP BY p.usuarioProyecto.nombreCompleto")
-    public List<ProyectoCountDTO> contarProyectosPorUsuario(@Param("idUsuario") Long idUsuario);
+    // Query para contar proyectos por usuario//Naomi
+    @Query(value = "SELECT u.nombre_completo AS nombreUsuario, COUNT(p.id_proyecto) AS cantidadProyectos " +
+            "FROM proyecto p JOIN usuario u ON p.id_usuario = u.id_usuario " +
+            "WHERE p.id_usuario = :idUsuario " +
+            "GROUP BY u.nombre_completo", nativeQuery = true)
+    public List<Object[]> contarProyectosPorUsuario(@Param("idUsuario") Long idUsuario);
 
-   @Query(value= "SELECT pr.nombre_proyecto as Nombre, Count(*) Num_permiso\n" +
+
+    @Query(value= "SELECT pr.nombre_proyecto as Nombre, Count(*) Num_permiso\n" +
            "From Proyecto pr\n" +
            "inner join  Permiso  pe on pr.id_proyecto= pe.id_proyecto\n" +
            "where pr.id_usuario=:idUsuario\n" +

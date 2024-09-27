@@ -50,11 +50,13 @@ public class ProyectoController {
         proyectoService.delete(id);
     }
 
-    @GetMapping("/contar-por-usuario/{idUsuario}")//sifunciona
-    @PreAuthorize("hasAnyAuthority( 'Admin')")
-    public List<ProyectoCountDTO> contarProyectosPorUsuario(@PathVariable("idUsuario") Long idUsuario) {
-        return proyectoService.contarProyectosPorUsuario(idUsuario);
+    @GetMapping("/contar-por-usuario/{idUsuario}")
+    @PreAuthorize("hasAnyAuthority('Admin')")
+    public List<Object[]> contarProyectosPorUsuario(@PathVariable("idUsuario") Long idUsuario) {
+        return proyectoService.contarProyectosPorUsuario(idUsuario);  // Retorna la lista de Object[]
     }
+
+
     @GetMapping("/contar_proyectos_estado")  //si funciona
     @PreAuthorize("hasAnyAuthority( 'Admin')")
     public List<ProyectosCountByEstado>contarEstadosPorProyecto()

@@ -1,5 +1,6 @@
 package pe.edu.upc.terraplan.servicesinterfaces;
 
+import org.springframework.data.repository.query.Param;
 import pe.edu.upc.terraplan.dtos.ProyectoCountDTO;
 import pe.edu.upc.terraplan.entities.Proyecto;
 
@@ -10,7 +11,9 @@ public interface IProyectoService {
     public void insert(Proyecto proyecto);
     public void delete(int id);
     public void update(Proyecto proyecto);
-    public List<ProyectoCountDTO> contarProyectosPorUsuario(Long idUsuario);
+
+    public List<Object[]> contarProyectosPorUsuario( Long idUsuario);
+
     public List<String[]>contarPermisosDeProyectosPorUsuario(Long idUsuario);
     public List<String[]>contarPermisosDeProyectos();
     public List<String[]>contarTerrenosDeProyectos();
